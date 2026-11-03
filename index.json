@@ -1,0 +1,288 @@
+{
+  "format": 1,
+  "metadata": {
+    "categories": {
+      "billing": {
+        "title": {
+          "en": "Usage & Billing",
+          "zh-cn": "用量与计费"
+        },
+        "order": "10"
+      },
+      "desktop": {
+        "title": {
+          "en": "Desktop & Apps",
+          "zh-cn": "桌面与应用"
+        },
+        "order": "20"
+      },
+      "ui-experience": {
+        "title": {
+          "en": "UI & Experience",
+          "zh-cn": "界面与体验"
+        },
+        "order": "30"
+      },
+      "agents-workflows": {
+        "title": {
+          "en": "Agents, Automation & Workflows",
+          "zh-cn": "Agent、自动化与工作流"
+        },
+        "order": "40"
+      }
+    },
+    "labels": {
+      "official": {
+        "title": {
+          "en": "Maintained by Aily-DSH",
+          "zh-cn": "Aily-DSH 维护"
+        }
+      }
+    },
+    "sortKeys": {
+      "updated": {
+        "title": {
+          "en": "Recently updated",
+          "zh-cn": "最近更新"
+        },
+        "order": "desc"
+      }
+    }
+  },
+  "plugins": [
+    {
+      "name": "dsh-peak-guard",
+      "title": {
+        "en": "dsh-peak-guard",
+        "zh-cn": "峰谷价自动停启"
+      },
+      "description": {
+        "en": "Peak-hour guard: warns before DeepSeek peak-priced hours, stops the sessions you pick when peak starts, resumes them when off-peak returns. Holiday and make-up-workday aware.",
+        "zh-cn": "高峰计价前提醒、到点停掉你勾选的会话、低谷开始自动唤醒继续干活；内置节假日与调休日历，只作用于你勾选的会话。"
+      },
+      "author": "Aily-DSH",
+      "homepage": "https://github.com/Aily-DSH/dsh-peak-guard#readme",
+      "repository": {
+        "url": "https://github.com/Aily-DSH/dsh-peak-guard"
+      },
+      "metadata": {
+        "category": "billing",
+        "keywords": [
+          "pricing",
+          "billing",
+          "peak",
+          "automation",
+          "schedule"
+        ],
+        "labels": [
+          "official"
+        ],
+        "sortKeys": {
+          "updated": 1793679327
+        }
+      },
+      "versions": [
+        {
+          "version": "0.3.1",
+          "publishTimestamp": 1793679327,
+          "source": {
+            "type": "git",
+            "url": "https://github.com/Aily-DSH/dsh-peak-guard",
+            "commit": "d065a1e550fae19f4226d3fa50b6046c41d37c7b"
+          },
+          "engines": {
+            "dsh": ">=0.2.1-rc.2"
+          }
+        }
+      ]
+    },
+    {
+      "name": "dsh-sidebar-tab-close",
+      "title": {
+        "en": "dsh-sidebar-tab-close",
+        "zh-cn": "双击关侧栏标签"
+      },
+      "description": {
+        "en": "Close the right-sidebar tab first: Ctrl+W prefers the active sidebar tab over the window, and double-clicking a sidebar tab closes it.",
+        "zh-cn": "双击右侧栏标签直接关闭；Ctrl+W 在焦点不在侧栏时也优先关掉当前标签，而不是关掉整个窗口。"
+      },
+      "author": "Aily-DSH",
+      "homepage": "https://github.com/Aily-DSH/dsh-sidebar-tab-close#readme",
+      "repository": {
+        "url": "https://github.com/Aily-DSH/dsh-sidebar-tab-close"
+      },
+      "metadata": {
+        "category": "ui-experience",
+        "keywords": [
+          "sidebar",
+          "shortcut",
+          "tab",
+          "ux"
+        ],
+        "labels": [
+          "official"
+        ],
+        "sortKeys": {
+          "updated": 1793642709
+        }
+      },
+      "versions": [
+        {
+          "version": "0.1.1",
+          "publishTimestamp": 1793642709,
+          "source": {
+            "type": "git",
+            "url": "https://github.com/Aily-DSH/dsh-sidebar-tab-close",
+            "commit": "259c8c48422b246671b982338a3b586739ee839c"
+          },
+          "engines": {
+            "dsh": ">=0.2.1-rc.2"
+          }
+        }
+      ]
+    },
+    {
+      "name": "dsh-test-window",
+      "title": {
+        "en": "dsh-test-window",
+        "zh-cn": "测试窗口固定屏幕"
+      },
+      "description": {
+        "en": "Pick the display that test windows open on: a dsh settings page chooses a monitor, and both that page and the open_test_window agent tool move the spawned window onto it",
+        "zh-cn": "在设置里选定显示器，Agent 用 open_test_window 拉起的窗口永远落在该屏幕内，可最大化、置顶、切前台。"
+      },
+      "author": "Aily-DSH",
+      "homepage": "https://github.com/Aily-DSH/dsh-test-window#readme",
+      "repository": {
+        "url": "https://github.com/Aily-DSH/dsh-test-window"
+      },
+      "metadata": {
+        "category": "desktop",
+        "keywords": [
+          "window",
+          "display",
+          "desktop",
+          "automation"
+        ],
+        "labels": [
+          "official"
+        ],
+        "sortKeys": {
+          "updated": 1793640585
+        }
+      },
+      "versions": [
+        {
+          "version": "0.1.0",
+          "publishTimestamp": 1793640585,
+          "source": {
+            "type": "git",
+            "url": "https://github.com/Aily-DSH/dsh-test-window",
+            "commit": "9c31d9ae6afe0365df2e0037e194763f0cfea20d"
+          },
+          "engines": {
+            "dsh": ">=0.2.1-rc.2"
+          }
+        }
+      ]
+    },
+    {
+      "name": "dsh-session-usage",
+      "title": {
+        "en": "dsh-session-usage",
+        "zh-cn": "对话用量面板"
+      },
+      "description": {
+        "en": "Per-conversation token usage for the dsh Web GUI: every recorded conversation with its input, cache-read, cache-write, and output token totals, parsed straight from the local session logs",
+        "zh-cn": "按会话统计 Token（输入/缓存读/缓存写/输出）与折算费用，时间窗从 10 分钟到全部，侧栏常驻今日消耗。"
+      },
+      "author": "Aily-DSH",
+      "homepage": "https://github.com/Aily-DSH/dsh-session-usage#readme",
+      "repository": {
+        "url": "https://github.com/Aily-DSH/dsh-session-usage"
+      },
+      "metadata": {
+        "category": "billing",
+        "keywords": [
+          "usage",
+          "tokens",
+          "billing",
+          "analytics"
+        ],
+        "labels": [
+          "official"
+        ],
+        "sortKeys": {
+          "updated": 1793640594
+        }
+      },
+      "versions": [
+        {
+          "version": "0.1.0",
+          "publishTimestamp": 1793640594,
+          "source": {
+            "type": "git",
+            "url": "https://github.com/Aily-DSH/dsh-session-usage",
+            "commit": "02d91ab82412cce1529e4b7c3e6b8df1a0d91acd"
+          },
+          "engines": {
+            "dsh": ">=0.2.1-rc.2"
+          }
+        }
+      ]
+    },
+    {
+      "name": "dsh-superagent-manager",
+      "title": {
+        "en": "dsh-superagent-manager",
+        "zh-cn": "Super Agent 管理面板"
+      },
+      "description": {
+        "en": "Manage dsh-superagent projects from one DSH client: create the repository, clone, sidebar Workspace and Super Agent instance, then run and proxy every instance in a tabbed panel.",
+        "zh-cn": "在一个 DSH 客户端里管理多个 super agent 项目：建仓、克隆、注册侧边栏工作区、启动/停止、标签页内嵌代理。"
+      },
+      "author": "Aily-DSH",
+      "homepage": "https://github.com/Aily-DSH/dsh-superagent-manager#readme",
+      "repository": {
+        "url": "https://github.com/Aily-DSH/dsh-superagent-manager"
+      },
+      "metadata": {
+        "category": "agents-workflows",
+        "keywords": [
+          "superagent",
+          "agent",
+          "manager",
+          "workspace"
+        ],
+        "labels": [
+          "official"
+        ],
+        "sortKeys": {
+          "updated": 1793680023
+        }
+      },
+      "versions": [
+        {
+          "version": "0.3.1",
+          "publishTimestamp": 1793680023,
+          "source": {
+            "type": "git",
+            "url": "https://github.com/Aily-DSH/dsh-superagent-manager",
+            "commit": "6dab7e11e2fb9ba4e526b450bdf2bd99cb2d9902"
+          },
+          "engines": {
+            "dsh": ">=0.2.1-rc.2"
+          }
+        }
+      ]
+    }
+  ],
+  "title": {
+    "en": "Aily-DSH plugins",
+    "zh-cn": "Aily-DSH 插件索引"
+  },
+  "description": {
+    "en": "DSH plugins maintained by Aily-DSH",
+    "zh-cn": "由 Aily-DSH 维护的 DSH 插件"
+  }
+}
