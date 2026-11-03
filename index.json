@@ -167,17 +167,17 @@
           "official"
         ],
         "sortKeys": {
-          "updated": 1793680393
+          "updated": 1793680527
         }
       },
       "versions": [
         {
-          "version": "0.1.1",
-          "publishTimestamp": 1793680393,
+          "version": "0.1.2",
+          "publishTimestamp": 1793680527,
           "source": {
             "type": "git",
             "url": "https://github.com/Aily-DSH/dsh-test-window",
-            "commit": "7612af26d51f3153108d7c8fd3f31625cee71e86"
+            "commit": "0210035599eac21842193cb9a38469d4b4c3b4a4"
           },
           "engines": {
             "dsh": ">=0.2.1-rc.2"
