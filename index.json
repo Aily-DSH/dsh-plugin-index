@@ -274,6 +274,53 @@
           }
         }
       ]
+    },
+    {
+      "name": "dsh-approval-inbox",
+      "title": {
+        "en": "dsh-approval-inbox",
+        "zh-cn": "决策收件箱"
+      },
+      "description": {
+        "en": "Turns blocking approvals into a background queue: the agent keeps working instead of waiting, requests wait in a permanent sidebar inbox grouped by project and conversation with row badges, rule sets import and export, and approvals made in peak-priced hours are delivered when the price drops.",
+        "zh-cn": "把需要授权的调用下放进收件箱，Agent 不再卡住而是继续做别的；左侧常驻入口、按项目与会话分组、会话行数字角标、规则可导入导出，峰时的批准压到谷时执行。"
+      },
+      "author": "Aily-DSH",
+      "homepage": "https://github.com/Aily-DSH/dsh-approval-inbox#readme",
+      "repository": {
+        "url": "https://github.com/Aily-DSH/dsh-approval-inbox"
+      },
+      "metadata": {
+        "category": "agents-workflows",
+        "keywords": [
+          "approval",
+          "inbox",
+          "permissions",
+          "queue",
+          "superagent",
+          "peak-hours"
+        ],
+        "labels": [
+          "official"
+        ],
+        "sortKeys": {
+          "updated": 1793709888
+        }
+      },
+      "versions": [
+        {
+          "version": "0.1.1",
+          "publishTimestamp": 1793709888,
+          "source": {
+            "type": "git",
+            "url": "https://github.com/Aily-DSH/dsh-approval-inbox",
+            "commit": "297be29f13be1377c9b81de24fec7059ed989ef5"
+          },
+          "engines": {
+            "dsh": ">=0.2.1-rc.2"
+          }
+        }
+      ]
     }
   ],
   "format": 1,

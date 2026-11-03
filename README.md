@@ -28,6 +28,7 @@ Then restart DSH (or reload the profile) and open **设置 → 插件市场**.
 | [dsh-test-window](https://github.com/Aily-DSH/dsh-test-window) | Test windows always open on the display you pick in settings. |
 | [dsh-session-usage](https://github.com/Aily-DSH/dsh-session-usage) | Per-conversation token usage (input / cache read / cache write / output) and estimated cost. |
 | [dsh-superagent-manager](https://github.com/Aily-DSH/dsh-superagent-manager) | Manage several super-agent projects from one DSH client. |
+| [dsh-approval-inbox](https://github.com/Aily-DSH/dsh-approval-inbox) | Turns blocking approvals into a background queue: requests wait in a sidebar inbox while the agent keeps working, approvals made in peak-priced hours run off-peak. |
 
 ## Format
 
