@@ -1,5 +1,4 @@
 {
-  "format": 1,
   "metadata": {
     "categories": {
       "billing": {
@@ -78,17 +77,17 @@
           "official"
         ],
         "sortKeys": {
-          "updated": 1793679327
+          "updated": 1793680244
         }
       },
       "versions": [
         {
           "version": "0.3.1",
-          "publishTimestamp": 1793679327,
+          "publishTimestamp": 1793680244,
           "source": {
             "type": "git",
             "url": "https://github.com/Aily-DSH/dsh-peak-guard",
-            "commit": "d065a1e550fae19f4226d3fa50b6046c41d37c7b"
+            "commit": "046fd157b6bbf5b4dafd0d0a2436320a79f4a505"
           },
           "engines": {
             "dsh": ">=0.2.1-rc.2"
@@ -123,17 +122,17 @@
           "official"
         ],
         "sortKeys": {
-          "updated": 1793642709
+          "updated": 1793680252
         }
       },
       "versions": [
         {
           "version": "0.1.1",
-          "publishTimestamp": 1793642709,
+          "publishTimestamp": 1793680252,
           "source": {
             "type": "git",
             "url": "https://github.com/Aily-DSH/dsh-sidebar-tab-close",
-            "commit": "259c8c48422b246671b982338a3b586739ee839c"
+            "commit": "69b512807e7cfe864885e0da99fea8ed12928206"
           },
           "engines": {
             "dsh": ">=0.2.1-rc.2"
@@ -168,17 +167,17 @@
           "official"
         ],
         "sortKeys": {
-          "updated": 1793640585
+          "updated": 1793680393
         }
       },
       "versions": [
         {
-          "version": "0.1.0",
-          "publishTimestamp": 1793640585,
+          "version": "0.1.1",
+          "publishTimestamp": 1793680393,
           "source": {
             "type": "git",
             "url": "https://github.com/Aily-DSH/dsh-test-window",
-            "commit": "9c31d9ae6afe0365df2e0037e194763f0cfea20d"
+            "commit": "7612af26d51f3153108d7c8fd3f31625cee71e86"
           },
           "engines": {
             "dsh": ">=0.2.1-rc.2"
@@ -213,17 +212,17 @@
           "official"
         ],
         "sortKeys": {
-          "updated": 1793640594
+          "updated": 1793680266
         }
       },
       "versions": [
         {
           "version": "0.1.0",
-          "publishTimestamp": 1793640594,
+          "publishTimestamp": 1793680266,
           "source": {
             "type": "git",
             "url": "https://github.com/Aily-DSH/dsh-session-usage",
-            "commit": "02d91ab82412cce1529e4b7c3e6b8df1a0d91acd"
+            "commit": "bc685fad1cbf865274528ff792b8ac5d5b2ddd76"
           },
           "engines": {
             "dsh": ">=0.2.1-rc.2"
@@ -258,17 +257,17 @@
           "official"
         ],
         "sortKeys": {
-          "updated": 1793680023
+          "updated": 1793680273
         }
       },
       "versions": [
         {
           "version": "0.3.1",
-          "publishTimestamp": 1793680023,
+          "publishTimestamp": 1793680273,
           "source": {
             "type": "git",
             "url": "https://github.com/Aily-DSH/dsh-superagent-manager",
-            "commit": "6dab7e11e2fb9ba4e526b450bdf2bd99cb2d9902"
+            "commit": "b3db762f5762b24e78dbb496f0dbbc6256e8b41a"
           },
           "engines": {
             "dsh": ">=0.2.1-rc.2"
@@ -277,6 +276,7 @@
       ]
     }
   ],
+  "format": 1,
   "title": {
     "en": "Aily-DSH plugins",
     "zh-cn": "Aily-DSH 插件索引"
