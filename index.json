@@ -77,17 +77,17 @@
           "official"
         ],
         "sortKeys": {
-          "updated": 1793680244
+          "updated": 1794025800
         }
       },
       "versions": [
         {
-          "version": "0.3.1",
-          "publishTimestamp": 1793680244,
+          "version": "0.3.2",
+          "publishTimestamp": 1794025800,
           "source": {
             "type": "git",
             "url": "https://github.com/Aily-DSH/dsh-peak-guard",
-            "commit": "046fd157b6bbf5b4dafd0d0a2436320a79f4a505"
+            "commit": "e6460210cd84e272e4f0385522d29bc0cd8e6506"
           },
           "engines": {
             "dsh": ">=0.2.1-rc.2"
