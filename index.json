@@ -141,6 +141,51 @@
       ]
     },
     {
+      "name": "dsh-quick-chat",
+      "title": {
+        "en": "dsh-quick-chat",
+        "zh-cn": "快捷对话"
+      },
+      "description": {
+        "en": "Quick-send chips in the DSH composer: click a saved phrase to send it immediately, with up to ten editable presets stored locally.",
+        "zh-cn": "在输入框上方加一排快捷语胶囊：点一下立即发送，最多 10 条可编辑快捷语保存在本地。"
+      },
+      "author": "Aily-DSH",
+      "homepage": "https://github.com/Aily-DSH/dsh-quick-chat#readme",
+      "repository": {
+        "url": "https://github.com/Aily-DSH/dsh-quick-chat"
+      },
+      "metadata": {
+        "category": "ui-experience",
+        "keywords": [
+          "composer",
+          "quick-reply",
+          "shortcuts",
+          "productivity"
+        ],
+        "labels": [
+          "official"
+        ],
+        "sortKeys": {
+          "updated": 1793853426
+        }
+      },
+      "versions": [
+        {
+          "version": "0.1.1",
+          "publishTimestamp": 1793853426,
+          "source": {
+            "type": "git",
+            "url": "https://github.com/Aily-DSH/dsh-quick-chat",
+            "commit": "94248000ce97ab36aa28c6064d3fe7b2c16352e6"
+          },
+          "engines": {
+            "dsh": ">=0.2.1-rc.2"
+          }
+        }
+      ]
+    },
+    {
       "name": "dsh-test-window",
       "title": {
         "en": "dsh-test-window",
@@ -167,17 +212,17 @@
           "official"
         ],
         "sortKeys": {
-          "updated": 1793680527
+          "updated": 1793682694
         }
       },
       "versions": [
         {
-          "version": "0.1.2",
-          "publishTimestamp": 1793680527,
+          "version": "0.2.0",
+          "publishTimestamp": 1793682694,
           "source": {
             "type": "git",
             "url": "https://github.com/Aily-DSH/dsh-test-window",
-            "commit": "0210035599eac21842193cb9a38469d4b4c3b4a4"
+            "commit": "afaccdaff9dcccc559e98ffa1cbd2c63127ef6fb"
           },
           "engines": {
             "dsh": ">=0.2.1-rc.2"
@@ -257,17 +302,17 @@
           "official"
         ],
         "sortKeys": {
-          "updated": 1793680273
+          "updated": 1793853366
         }
       },
       "versions": [
         {
-          "version": "0.3.1",
-          "publishTimestamp": 1793680273,
+          "version": "0.3.6",
+          "publishTimestamp": 1793853366,
           "source": {
             "type": "git",
             "url": "https://github.com/Aily-DSH/dsh-superagent-manager",
-            "commit": "b3db762f5762b24e78dbb496f0dbbc6256e8b41a"
+            "commit": "c3987f3fccf4684a0b539e3738f8a85f6316a1bc"
           },
           "engines": {
             "dsh": ">=0.2.1-rc.2"
@@ -304,17 +349,17 @@
           "official"
         ],
         "sortKeys": {
-          "updated": 1793709888
+          "updated": 1793853387
         }
       },
       "versions": [
         {
-          "version": "0.1.1",
-          "publishTimestamp": 1793709888,
+          "version": "0.1.2",
+          "publishTimestamp": 1793853387,
           "source": {
             "type": "git",
             "url": "https://github.com/Aily-DSH/dsh-approval-inbox",
-            "commit": "297be29f13be1377c9b81de24fec7059ed989ef5"
+            "commit": "33896af75a005024b527a76698b4c2c45663d092"
           },
           "engines": {
             "dsh": ">=0.2.1-rc.2"

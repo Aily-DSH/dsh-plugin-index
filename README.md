@@ -25,6 +25,7 @@ Then restart DSH (or reload the profile) and open **设置 → 插件市场**.
 | --- | --- |
 | [dsh-peak-guard](https://github.com/Aily-DSH/dsh-peak-guard) | Warns before DeepSeek peak-priced hours, stops selected sessions, resumes them when off-peak pricing starts. |
 | [dsh-sidebar-tab-close](https://github.com/Aily-DSH/dsh-sidebar-tab-close) | Double-click a right-sidebar tab to close it; Ctrl+W prefers the active sidebar tab over the window. |
+| [dsh-quick-chat](https://github.com/Aily-DSH/dsh-quick-chat) | A row of quick-send chips in the composer: one click sends a saved phrase, up to ten editable presets stored locally. |
 | [dsh-test-window](https://github.com/Aily-DSH/dsh-test-window) | Test windows always open on the display you pick in settings. |
 | [dsh-session-usage](https://github.com/Aily-DSH/dsh-session-usage) | Per-conversation token usage (input / cache read / cache write / output) and estimated cost. |
 | [dsh-superagent-manager](https://github.com/Aily-DSH/dsh-superagent-manager) | Manage several super-agent projects from one DSH client. |
