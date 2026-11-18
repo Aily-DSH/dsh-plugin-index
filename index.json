@@ -257,17 +257,17 @@
           "official"
         ],
         "sortKeys": {
-          "updated": 1793680266
+          "updated": 1794976302
         }
       },
       "versions": [
         {
-          "version": "0.1.0",
-          "publishTimestamp": 1793680266,
+          "version": "0.1.1",
+          "publishTimestamp": 1794976302,
           "source": {
             "type": "git",
             "url": "https://github.com/Aily-DSH/dsh-session-usage",
-            "commit": "bc685fad1cbf865274528ff792b8ac5d5b2ddd76"
+            "commit": "a1c66d702a33a9a754a752947dc2abd5828b4332"
           },
           "engines": {
             "dsh": ">=0.2.1-rc.2"
