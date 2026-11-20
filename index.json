@@ -302,17 +302,17 @@
           "official"
         ],
         "sortKeys": {
-          "updated": 1794655740
+          "updated": 1795186717
         }
       },
       "versions": [
         {
-          "version": "0.3.14",
-          "publishTimestamp": 1794655740,
+          "version": "0.3.15",
+          "publishTimestamp": 1795186717,
           "source": {
             "type": "git",
             "url": "https://github.com/Aily-DSH/dsh-superagent-manager",
-            "commit": "ebd779d631e947155d96012d891925a21c0794ac"
+            "commit": "4494b5bc62a53d1eabdf2f114918d735e0e688f1"
           },
           "engines": {
             "dsh": ">=0.2.1-rc.2"
