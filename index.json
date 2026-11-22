@@ -366,6 +366,51 @@
           }
         }
       ]
+    },
+    {
+      "name": "dsh-autostart",
+      "title": {
+        "en": "dsh-autostart",
+        "zh-cn": "开机自启动"
+      },
+      "description": {
+        "en": "A settings toggle that starts DSH when you sign in to Windows, with an optional launch delay and a retrying launcher.",
+        "zh-cn": "在设置里一键启用 / 关闭开机自启动，可设置登录后延迟秒数；启动器会等待程序就绪再打开。"
+      },
+      "author": "Aily-DSH",
+      "homepage": "https://github.com/Aily-DSH/dsh-autostart#readme",
+      "repository": {
+        "url": "https://github.com/Aily-DSH/dsh-autostart"
+      },
+      "metadata": {
+        "category": "desktop",
+        "keywords": [
+          "startup",
+          "autostart",
+          "windows",
+          "launch"
+        ],
+        "labels": [
+          "official"
+        ],
+        "sortKeys": {
+          "updated": 1795350326
+        }
+      },
+      "versions": [
+        {
+          "version": "0.1.1",
+          "publishTimestamp": 1795350326,
+          "source": {
+            "type": "git",
+            "url": "https://github.com/Aily-DSH/dsh-autostart",
+            "commit": "c4c92625a37894cb95848e388c6242d0723b5d4e"
+          },
+          "engines": {
+            "dsh": ">=0.2.1-rc.2"
+          }
+        }
+      ]
     }
   ],
   "format": 1,
