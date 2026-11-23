@@ -276,51 +276,6 @@
       ]
     },
     {
-      "name": "dsh-superagent-manager",
-      "title": {
-        "en": "dsh-superagent-manager",
-        "zh-cn": "Super Agent 管理面板"
-      },
-      "description": {
-        "en": "Manage dsh-superagent projects from one DSH client: create the repository, clone, sidebar Workspace and Super Agent instance, then run and proxy every instance in a tabbed panel.",
-        "zh-cn": "在一个 DSH 客户端里管理多个 super agent 项目：建仓、克隆、注册侧边栏工作区、启动/停止、标签页内嵌代理。"
-      },
-      "author": "Aily-DSH",
-      "homepage": "https://github.com/Aily-DSH/dsh-superagent-manager#readme",
-      "repository": {
-        "url": "https://github.com/Aily-DSH/dsh-superagent-manager"
-      },
-      "metadata": {
-        "category": "agents-workflows",
-        "keywords": [
-          "superagent",
-          "agent",
-          "manager",
-          "workspace"
-        ],
-        "labels": [
-          "official"
-        ],
-        "sortKeys": {
-          "updated": 1795186717
-        }
-      },
-      "versions": [
-        {
-          "version": "0.3.15",
-          "publishTimestamp": 1795186717,
-          "source": {
-            "type": "git",
-            "url": "https://github.com/Aily-DSH/dsh-superagent-manager",
-            "commit": "4494b5bc62a53d1eabdf2f114918d735e0e688f1"
-          },
-          "engines": {
-            "dsh": ">=0.2.1-rc.2"
-          }
-        }
-      ]
-    },
-    {
       "name": "dsh-approval-inbox",
       "title": {
         "en": "dsh-approval-inbox",
